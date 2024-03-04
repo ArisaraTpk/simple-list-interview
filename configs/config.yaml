@@ -1,0 +1,20 @@
+service:
+  name: simple-list-interview
+  port: 3023
+
+db:
+  interview:
+    database: "local"
+    host: "localhost"
+    port: 3306
+    username: root
+    password: root1234
+    timeout: 1h
+    connection:
+      maxidle: 2
+      maxopen: 20
+
+
+
+
+
